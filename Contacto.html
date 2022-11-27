@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
@@ -24,14 +25,17 @@
                 <li>
                     <a href="./Contacto.html">Contacto</a>
                 </li>
+                <li>
+                    <a href="https://www.facebook.com/ARMYVEGA/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                </li>
             </ul>
         </nav>
         <div>
-            <img src="./Imagenes/capturadepantalla2021-02-23alas90739.jpg" alt="Logo del restorant ArgenMex">
+            <img id="logoIndex" src="./Imagenes/Captura de pantalla_20221126_053549.png" alt="Logo del restorant ArgenMex">
         </div>
     </header>
     <main>
-        <h1>
+        <h1 id="titulo">
             Contactanos!!!
         </h1>
         <section>
@@ -42,26 +46,26 @@
                 <input placeholder="Ingresa tu apellido" type="text">
                 <label for="">Edad</label>
                 <input placeholder="Ingresar edad" type="number">
-                <br>
                 <label for="">Correo electrónico</label>
                 <input type="email" name="" placeholder="Ingresa tu email" id="">
                 <label for="">Contraseña</label>
                 <input type="password" name="" placeholder="Contraseña" id="">
                <input type="submit" value="Enviar">
-                <br>
                <h3>Dudas o comentarios</h3>
                <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa tu duda"></textarea>
                 <input type="submit" value="Enviar formulario">
-                <br>
                 <input type="reset" value="Limpiar formulario">
             </form>
         </section>
     </main>
     <footer>
-        <p>
-            ArgenMex --- Todos los derechos reservados
+        <p class="pie">
+            VEGA SHOP --- Todos los derechos reservados
+            <iconify-icon icon="ic:baseline-copyright"></iconify-icon>
         </p>
     </footer>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
 </body>
 
 </html>

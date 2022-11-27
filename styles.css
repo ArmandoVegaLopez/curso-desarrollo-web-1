@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{text-align: center;}
+
+.parrafo {
+color: #000000;
+text-align: justify;
+}
+
+#titulo{
+    font-family: 'Nerko One', cursive;
+    font-size: 50px;
+    color: #e21f84ce;
+    text-align: center;
+    text-shadow: 2px 10px 20px #11afdf;
+}
+
+#logoIndex{
+    width: 10rem;
+    height: 10rem;
+}
+
+.contorno{
+    text-align: center;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: rgb(36, 145, 239) rgb(239, 50, 36) rgb(36, 239, 80) rgb(174, 255, 43);
+}
+
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.imagen{
+    width: 50rem;
+    height: 40rem; 
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;  
+}
+
+.pie{
+    background-color: rgb(21, 150, 210);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    text-transform: unset;
+}
