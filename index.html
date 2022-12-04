@@ -1,62 +1,175 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VEGA - SHOP</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./Quienes-somos.html">Quienes somos?</a>
-                </li>
-                <li>
-                    <a href="./Comprar.html">Comprar</a>
-                </li>
-                <li>
-                    <a href="./Contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/ARMYVEGA/" target="_blank" rel="noopener noreferrer">Facebook</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <div>
-            <img id="logoIndex" src="./Imagenes/Captura de pantalla_20221126_053549.png" alt="Logo del restorant ArgenMex">
-        </div>
+      <nav class="navegacion">
+        <ul class="navbar">
+          <li class="navIndex">
+            <a href="./index.html">Inicio</a>
+          </li>
+          <li class="navIndex">
+            <a href="./Quienes-somos.html">¿Quiénes somos?</a>
+          </li>
+          <li class="navIndex">
+            <a href="./Comprar.html">Comprar</a>
+          </li>
+          <li class="navIndex">
+            <a href="./Contacto.html">Contacto</a>
+          </li>
+          <div class="buscar">
+            <input type="text" name="Search" placeholder="Buscar" required />
+            <img
+              id="search"
+              src="./Imagenes/buscar.jpg"
+              alt="icono de busqueda"
+            />
+          </div>
+          <div>
+            <img
+              id="carrito"
+              src="./Imagenes/carrito.jpg"
+              alt="carrito de compras"
+            />
+          </div>
+        </ul>
+      </nav>
     </header>
+    <div class="encabezado-img">
+      <img
+        class="logo"
+        src="./Imagenes/Captura de pantalla_20221126_053549.png"
+        alt="logo de la compañia"
+      />
+      <p>Tienda de electrónica</p>
+      <h1>VEGA SHOP</h1>
+      <p>La magia hecha realidad</p>
+    </div>
     <main>
-        <section>
-            <h1 id="titulo">Bienvenido a VEGA SHOP</h1>
-            <p class="parrafo">
-                Aqui encontrarás todo lo que necesitas en tu vida diaria, y porque no?, también lo que no te imaginas, acompañanos a hacer de tu vida algo increible, realmente esperamos que disfrutes esta aventura y estaremos felices de verte muy seguido.
-            </p>
-        </section>
-    </main>
-    <footer>
-        <p class="pie">
-            VEGA SHOP --- Todos los derechos reservados
-            <iconify-icon icon="ic:baseline-copyright"></iconify-icon>
+      <section>
+        <p class="parrafo">
+          Aqui encontrarás todo lo que necesitas en tu vida diaria, y porque
+          no?, también lo que no te imaginas, acompañanos a hacer de tu vida
+          algo increible, realmente esperamos que disfrutes esta aventura y
+          estaremos felices de verte muy seguido.
         </p>
-        
+      </section>
+    </main>
+    <h2 class="tituloGaleria">GALERIA DE FOTOS</h2>
+    <div class="container-img">
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="./Imagenes/gal1.jpg" alt="img-galeria" />
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="./Imagenes/gal2.jpg" alt="img-galeria" />
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="./Imagenes/gal3.jpg" alt="img-galeria" />
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="./Imagenes/gal4.jpg" alt="img-galeria" />
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="./Imagenes/gal5.jpg" alt="img-galeria" />
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="./Imagenes/gal6jpg.jpg" alt="img-galeria" />
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="./Imagenes/gal7jpg.jpg" alt="img-galeria" />
+          </figure>
+        </a>
+      </div>
+    </div>
+    <div class="cuerpo">
+      <div class="container">
+        <div class="card">
+          <figure>
+            <img src="./Imagenes/quienessomos.jpg" alt="quienesSomos" />
+          </figure>
+          <div class="contenido">
+            <h3>¿Quiénes somos?</h3>
+            <p>
+              Queremos ser parte de tu historia, por ello, nos encantaria que
+              conozcas la nuestra. Conocenos!!!
+            </p>
+            <a href="./Quienes-somos.html">Leer más</a>
+          </div>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="./Imagenes/comprar.jpeg" alt="quienesSomos" />
+          </figure>
+          <div class="contenido">
+            <h3>Comprar</h3>
+            <p>
+              Brindarte los mejores articulos de cálidad es nuestro trabajo,
+              sorprendete y dejate llevar por la magia, ¡Compra con un clic!
+            </p>
+            <a href="./Comprar.html">Leer más</a>
+          </div>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="./Imagenes/contactanos.jpg" alt="quienesSomos" />
+          </figure>
+          <div class="contenido">
+            <h3>Contacto</h3>
+            <p>
+              ¿Tienes dudas?, ¿Comentarios?, llena nuestro formulario de
+              contacto o visita nuestras redes sociales, nuestra priodidad eres
+              tu, tú haces la magia.
+            </p>
+            <a href="./Contacto.html">Leer más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="pie">
+        VEGA SHOP --- Todos los derechos reservados
+        <iconify-icon icon="ic:baseline-copyright"></iconify-icon>
+      </p>
     </footer>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
-</body>
-
+  </body>
 </html>
