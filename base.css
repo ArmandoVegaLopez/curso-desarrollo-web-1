@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+header {
+  font-family: "Open Sans";
+  background-color: rgb(1, 4, 72);
+  text-align: center;
+  padding: 5px 0;
+}
+header .navegacion .navbar {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  list-style: none;
+  border: 12px;
+}
+header .navegacion .navbar #logoIndex {
+  width: 45px;
+  height: 45px;
+  border-radius: 20%;
+}
+header .navegacion .navbar .navIndex a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+header .navegacion .navbar .navIndex a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+header .navegacion .navbar .buscar {
+  position: sticky;
+}
+header .navegacion .navbar .buscar input {
+  width: 250px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: #000;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+}
+header .navegacion .navbar .buscar #search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #04b7f3;
+  width: 38px;
+  height: 38px;
+  line-height: 55px;
+  border-radius: 50%;
+  cursor: pointer;
+  content: url("https://api.iconify.design/material-symbols/search.svg?color=white");
+}
+header .navegacion .navbar #carrito {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.encabezado-img {
+  font-family: "Open Sans";
+  background-image: url(./Imagenes/imageopc1.png);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.encabezado-img .logo {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  width: 90px;
+  border-radius: 20px;
+}
+.encabezado-img p {
+  font-family: "Open Sans";
+  font-size: 20px;
+}
+.encabezado-img h1 {
+  font-size: 50px;
+}
+.encabezado-img p {
+  font-size: 20px;
+}
+
+#titulo {
+  font-family: "Nerko One", cursive;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 2px 10px 20px #05ffff;
+  background: url(./Imagenes/banner.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.imagen {
+  width: 50rem;
+  height: 40rem;
+}
+
+.parrafo {
+  font-family: "Open Sans";
+  color: #000000;
+  text-align: justify;
+}
+
+.parrafoIndex {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+
+.tituloGaleria {
+  font-family: "Nerko One", cursive;
+  text-align: center;
+  background: url(./Imagenes/bannernavi.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-size: 30px;
+  color: white;
+}
+
+.container-img {
+  background-color: rgb(92, 92, 92);
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px;
+}
+.container-img .box-img:nth-child(1) {
+  grid-column-start: span 2;
+}
+.container-img .box-img:nth-child(4) {
+  grid-row-start: span 2;
+}
+.container-img .box-img a figure {
+  width: 100%;
+  height: 100%;
+}
+.container-img .box-img a figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer .pie {
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 0%;
+  background-color: rgb(21, 150, 210);
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  text-align: center;
+  text-transform: unset;
+}
+
+.cuerpo {
+  font-family: "Open Sans";
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.cuerpo .container {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+}
+.cuerpo .container .card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.cuerpo .container .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+.cuerpo .container .card figure img {
+  width: 100%;
+  height: 210px;
+}
+.cuerpo .container .card .contenido {
+  padding: 15px;
+  text-align: center;
+}
+.cuerpo .container .card .contenido h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.cuerpo .container .card .contenido p {
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+.cuerpo .container .card .contenido a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+.cuerpo .container .card .contenido a:hover {
+  background: #2fb4cc;
+  color: #fff;
+}
+
+.subtitulosComprar {
+  font-family: "Nerko One", cursive;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 2px 10px 20px #05ffff;
+  background: url(./Imagenes/banner.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.contorno {
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 20px;
+  border-style: dotted;
+  border-color: rgb(36, 145, 239) rgb(239, 50, 36) rgb(36, 239, 80) rgb(174, 255, 43);
+}
+
+.sub1comprar, .sub4comprar, .sub3comprar, .sub2comprar {
+  font-family: "Nerko One", cursive;
+  font-size: 30px;
+  border: 1px solid red;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+}
+
+/*# sourceMappingURL=base.css.map */

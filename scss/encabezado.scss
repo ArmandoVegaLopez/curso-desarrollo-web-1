@@ -1,0 +1,29 @@
+@import "variables";
+.encabezado-img {
+  font-family: $tipografiaPrincipal;
+  background-image: url(./Imagenes/imageopc1.png);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  .logo {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+  }
+  p {
+    font-family: $tipografiaPrincipal;
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
+  }
+}

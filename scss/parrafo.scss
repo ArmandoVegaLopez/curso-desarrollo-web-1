@@ -1,0 +1,21 @@
+@import "variables";
+#titulo {
+    @include titulo;
+}
+
+.imagen {
+    width: 50rem;
+    height: 40rem;
+  }
+
+.parrafo {
+    @include parrafo;
+}
+
+.parrafoIndex{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;;
+}

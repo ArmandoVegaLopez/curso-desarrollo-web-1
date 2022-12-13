@@ -1,0 +1,72 @@
+@import "variables";
+header {
+  font-family: $tipografiaPrincipal;
+  background-color: rgba(1, 4, 72, 255);
+  text-align: center;
+  padding: 5px 0;
+
+  .navegacion {
+    .navbar {
+      display: flex;
+      gap: 1rem;
+      justify-content: space-evenly;
+      list-style: none;
+      border: 12px;
+      #logoIndex {
+        width: 45px;
+        height: 45px;
+        border-radius: 20%;
+      }
+      .navIndex {
+        a {
+          display: inline-block;
+          text-decoration: none;
+          color: #ffffff;
+          margin: 0 30px;
+          padding: 5px 15px;
+          border-radius: 30px;
+
+          &:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+          }
+        }
+      }
+
+      .buscar {
+        position: sticky;
+
+        input {
+          width: 250px;
+          height: 40px;
+          padding: 0 20px;
+          font-size: 18px;
+          color: #000;
+          outline: none;
+          border: 1px solid silver;
+          border-radius: 30px;
+        }
+
+        #search {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background: #04b7f3;
+          width: 38px;
+          height: 38px;
+          line-height: 55px;
+          border-radius: 50%;
+          cursor: pointer;
+          content: url("https://api.iconify.design/material-symbols/search.svg?color=white");
+        }
+      }
+
+      #carrito {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+  }
+}

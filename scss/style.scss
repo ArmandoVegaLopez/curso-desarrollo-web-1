@@ -1,5 +1,9 @@
-$color-fondo: rgb(255, 51, 51);
-
-body{
-    background-color: $color-fondo;
-}
+@import 'variables';
+@import 'mixin';
+@import 'header';
+@import 'encabezado';
+@import 'parrafo';
+@import 'galeria';
+@import 'pie';
+@import 'cuerpo';
+@import 'comprar';
